@@ -40,7 +40,7 @@ use React\EventLoop\LoopInterface;
 class Server
 {
 
-    const SOCKET_LISTEN_PORT = 9001;
+    const SOCKET_LISTEN_PORT = 2096;
 
     /** @var  LoopInterface */
     protected $eventLoop;

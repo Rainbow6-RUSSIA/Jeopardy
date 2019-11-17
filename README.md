@@ -9,7 +9,7 @@ Installation
 
 Simply clone the project onto your webserver and run `composer install`. This will download all the dependencies.
 
-> Note: This project runs its websockets on port 9001. This port will need to be open to the public.
+> Note: This project runs its websockets on port 2096. This port will need to be open to the public.
 
 Point your webserver to the `client/` subdirectory, and host from there. The index.php method routes all URLs "prettily",
 so you will need to have URL rewriting enabled on your webserver. The application ships with an Apache-compatible .htaccess
